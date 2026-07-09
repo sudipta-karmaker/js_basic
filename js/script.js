@@ -78,7 +78,7 @@ else{
 }
 
 
-let score=100
+let score=55
 if(score <0 || score> 100){
     alert("You are Messi like Super Human")
 }
@@ -122,3 +122,46 @@ else if(score>=80 && score<=100){
 else{
     console.log("F")
 }
+
+function coffee(){
+    let x="sugar"
+    let y="coffee"
+    let z="milk"
+    let coffeemaker=(x+y+z)
+    console.log(coffeemaker);
+    
+}
+ coffee()
+  coffee()
+   coffee()
+    coffee()
+ coffee()
+
+ //array //for multiple data
+ let students=["A","B","C","D","E","F"]
+ console.log(students);
+ console.log(students[3]);
+
+ //push //add a element in last
+ let push = students.push("GG")
+ console.log(push);
+ console.log(students);
+
+ //pop //remove a element from the last
+ let pop =students.pop()
+ console.log(pop);
+ console.log(students);
+ 
+ //shift //remove an element from the first
+ let shift =students.shift()
+ console.log(shift);
+ console.log(students);
+
+ //unshift //add an element to the begginnig of the array
+ let unshift =students.unshift("ZZ")
+console.log(unshift);
+console.log(students);
+
+ 
+ 
+ 

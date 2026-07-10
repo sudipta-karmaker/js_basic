@@ -162,6 +162,55 @@ function coffee(){
 console.log(unshift);
 console.log(students);
 
- 
+const teams=['Argentina','France','Spain','England','Norway','Belgium']
+ for(i=0;i<teams.length;i++){
+    console.log(teams[i]);
+    
+ }
+
+ function info(name,age) {
+    console.log(`My name is ${name} and my age is ${age}`);
+    
+    
+ }
+ info("Sudipta",24)
+
+ //object
+
+ const data = {
+    name: "sudipta",
+    age: 24,
+    position:"z"
+
+ }
+ console.log(data.position);
+
+
+ const { name,boyos, position}={
+    name: "sudipta",
+    boyos: 24,
+    position:"z"
+ }
+ console.log(name);
+ console.log(boyos);
+ console.log(position);
+
+ //array with object
+ const employee=[
+    {
+        employeeOne:{
+            id:1,
+            nam:'S',
+            salary: 10
+        },
+        employeeTwo:{
+            id:2,
+            nam: 'U',
+            salary:20
+        }
+    
+    }
+ ]
+ console.log(employee[0].employeeOne);
  
  

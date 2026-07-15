@@ -212,5 +212,44 @@ const teams=['Argentina','France','Spain','England','Norway','Belgium']
     }
  ]
  console.log(employee[0].employeeOne);
+
+
+ let num=[1,2,3,4,5,6,7,8,9]
+ num.map((item)=>{
+    console.log(item);
+    
+ })
+ let numr=[1,2,3,4,5,6,7,8,9]
+ numr.map((item)=>{
+    console.log(item*2);
+    
+ })
+
+ let numbr=[1,2,3,4,5,6,7,8,9]
+ let result= numbr.map((item)=>{
+    return(item*7);
+ })
+ console.log(result);
+ console.log(result[2]);
+
+ let s='sudipta'
+ console.log(typeof s);
+
+ let pargph =document.querySelector('p')
+ pargph.style.color='red'
+ pargph.style.backgroundColor='blue'
+ pargph.style.fontSize='100px'
+ 
+ let heading= document.querySelector('h1')
+let button= document.querySelector('button')
+button.addEventListener('click',()=>{
+heading.innerHTML='I am Sudipta'
+heading.style.color='teal'
+heading.style.backgroundColor='red'
+heading.style.fontSize='100px'
+})
+ 
+
+
  
  

@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+    color:black;
+    transition: .4s;
+}
+.dark-mood{
+background-color: black;
+color: white;
+}

@@ -249,7 +249,26 @@ heading.style.backgroundColor='red'
 heading.style.fontSize='100px'
 })
  
+// let drkBtn=document.querySelector('.drkBtn')
+// let lgtBtn=document.querySelector('.lgtBtn')
 
 
+// drkBtn.addEventListener('click',()=>{
+//     document.body.style.backgroundColor='black'
+// });
+
+//  lgtBtn.addEventListener('click',()=>{
+//     document.body.style.backgroundColor='white'
+//  })
  
- 
+ let toggleBtn=document.querySelector('.toggleBtn')
+ toggleBtn.addEventListener('click',()=>{
+document.body.classList.toggle('dark-mood')
+
+if(document.body.classList.contains('dark-mood')){
+   toggleBtn.innerText='Light Mood'; 
+}
+else{
+    toggleBtn.innerText='Dark Mood'
+}
+ })
